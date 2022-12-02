@@ -1,0 +1,28 @@
+
+
+.explicacao{
+    height: auto;
+    width:  80vw;
+    border: 12px;
+    background-color: rgb(186, 180, 180);
+    border-color: black;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: #8EA8C3;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.div2{
+    height: 100px;
+    width: 200px;
+    background-color:#CBF7ED;
+    margin: 10px; /*mesmo valor para todos os lados*/
+    margin: 10px 5px 20px 15px/*setando valores variados
+            12hr 15hr 18hr 21hr posição do relogio*/
+    text-align center;
+
+}
