@@ -1,0 +1,44 @@
+/* Estilo de letra com import */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+h1{
+    color: rgb(64, 21, 157);
+}
+
+#inicio{
+    font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+#p1 {
+    font-size: 26px; /* tamanho*/
+    font-weight: 500; /* espessura*/
+    font-family: 'Pacifico', cursive; /* uso do import de estilo de letra */
+    line-height: 80px;  /* espaçamento entre as linhas */
+    letter-spacing: 8px;/* espaçamento entre as letras */
+    word-spacing: 30px;/* espaçamento entre as palavras */
+
+}
+
+#p2{
+text-align: center;
+}
+
+#transform {
+    text-transform: uppercase;
+ 
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#shadow{
+    text-shadow: 5px 5px 5px blue;
+    color: blue;
+    font-size: 20;
+}
+
+
+

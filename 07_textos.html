@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="./07_styles.css" rel="stylesheet">
+    
+    <!-- atalho para comentar ctrl+; -->
+    <!-- estilos das letras com link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+    <title>Textos</title>
+</head>
+<body>
+    <h1> TEXTOS NO CSS</h1>
+
+<div id="inicio">
+    É possível importar diversos tipos de letras pelo google e disponibilizar em seu site atraves do https://fonts.google.com/.<br>
+    Ao escolher uma fonte, é possível também escolher uma família ou estilos , em geral clica-se em <i>view all styles</i> . <br>
+    Após selecionar os estilos da fonte desejada a esquerda é gerada duas opções de uso da letra:<br>
+    - A primeira é através de link, para isso deve ser adicionado o código <i>"link"</i> gerado pelo referido site no <i>head</i> do html e em seguida indicar no styles onde será aplicada a letra. <br>
+    - A segunda forma é atraves de <i>import</i> dispensando a necessidade de incluir no <i>head</i> do projeto , podendo ser colocado diretamente no codigo do CSS.<br>
+    
+   
+</div>  
+
+<p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit molestiae aliquid quidem temporibus nisi enim quasi.
+</p>
+<p> Estilos utilizados no paragrado acima: <br>
+    font-size: 26px; /* tamanho*/<br>
+    font-weight: 500; /* espessura*/<br>
+    font-family: &#039;Pacifico&#039;, cursive; /* uso do import de estilo de letra */<br>
+    line-height: 80px;  /* espa&ccedil;amento entre as linhas */<br>
+    letter-spacing: 8px;/* espa&ccedil;amento entre as letras */<br>
+    word-spacing: 30px;/* espa&ccedil;amento entre as palavras */<br>
+</p>
+<br>
+
+<p id="p2">
+Para o alinhamento de texto utilizamos o <i>text-align:</i> que pode ser alinhado de várias formas como <i>center; left; rigth e justify.<br>
+Neste caso alinhamos como <i>center</i></i> 
+</p>
+
+<div id="transform">
+É possível ainda transformar todas as letras em maiusculas, minusculas  ou a primeira letra de cada palavra como maiuscula com o <i> text-transform:</i>.<br>
+neste caso utilizamos o comando "text-transform: uppercase;".<br>
+</div>
+<br>
+<div id="underline">Função -->  text-decoration: underline;</div>
+
+<br>
+<div id="shadow">A função text-shadow, seguem 4 parametros sendo a sequencia de horizontal, vertical, esfumaçado e cor.<br>
+    Segue exemplo: text-shadow: 5px 5px 3px blue;
+</div>
+</body>
+</html>

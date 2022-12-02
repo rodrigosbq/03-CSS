@@ -1,0 +1,18 @@
+h1{
+    color: red; 
+    background: black;   
+}
+
+p{
+    color: coral;
+    font-size: 20px;
+}
+
+button{
+    background-color: #e50914;
+    float: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./06_styles.css">
+    <title>Unidade de medida</title>
+</head>
+<body>
+    
+    <h1> Unidades de Medida    </h1>
+    <div>
+        ABSOLUTAS:<br>
+        px (pixels) : 1/100 polegadas  ou 0,254mm<br>
+        in (inches/polegadas)<br>
+        cm/mm (centimetro/milimetro)<br>
+        <br>
+        RELATIVAS:<br>
+        % calcula o tamanho relativo ao elemento pai   <br>
+        vw calcula o tamanho de acordo com a largura da tela <br>
+        vh calcula o tamanho de acordo com a altura da tela <br>
+        em unidade de medida relativa da fonte do pai <br>
+        rem unidade de medida relativa da fonte ao elemento raiz, root, ou unidade de medida principal <br>
+        
+    </div>
+  <br>
+        
+        <div class="pai01">
+           Ex:01
+            <div class="filho01">
+                <b>Neste exemplo temos uma div com altura e largura de 200px 
+                 e uma div filho com 50% da altura e largura.</b>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="pai02">
+           Ex:02
+            <div class="filho02">
+                <b>Neste exemplo temos uma div com altura e largura de 50% da visão da tela para o pai 
+                 e uma div filho com 25% da altura e largura.</b>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="pai03">
+           Ex3: div pai com font-size 16px , w 600px e h 400px
+            <div class="filho03">
+                div filho com tamanho de 80% e font size referencia de 2 vezes o tamanho do pai, utilizando em.
+            </div>
+        </div>
+
+        <br>
+    
+        <div class="vo">
+        <div class="pai04">
+           Div pai com altura e largura de 60% da tela, font-size de 25px.
+             <div class="filho04">
+                 div filho com font size referencia de 1 vezes o tamanho do root não importando quem está acima, utilizando rem.
+             </div>
+         </div>
+        </div>
+
+
+</body>
+</html>

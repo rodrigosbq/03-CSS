@@ -1,0 +1,23 @@
+#titulo{
+    color: blueviolet;
+    font-size: 55px;
+}
+
+#paragrafo{
+color: blue;
+font-size: 22px;
+font-weight: lighter;
+}
+
+#botao{
+background: rgb(153, 135, 145);
+border-radius: 6px;
+
+}
+
+.texto{
+    color: darkolivegreen;
+    font-style: oblique;
+    font-size: 24px;
+    
+}
